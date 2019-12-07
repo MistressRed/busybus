@@ -1,5 +1,5 @@
 body {
-  background: url('map.png') repeat 0 0;;
+  background: url('../map.png') repeat 0 0;;
   background-color: #cccccc;
   background-position: center;
   font-size: 14px;
@@ -11,6 +11,7 @@ body {
 #navlist li {
   display: inline;
   list-style-type: none;
+  margin-left: 20px;
 }
 .style1 {
   font-size: 50px;
@@ -26,7 +27,7 @@ body {
   font-variant: small-caps;
   font-family: sans-serif;
   color: white;
-  margin-right: 7em;
+  margin-right: 6em;
 }
 .style3 {
   font-size: 50px;
@@ -34,7 +35,7 @@ body {
   font-variant: small-caps;
   font-family: sans-serif;
   color: white;
-  margin-right: 7em;
+  margin-right: 6em;
 }
 .style4 {
   font-size: 50px;
@@ -42,7 +43,7 @@ body {
   font-variant: small-caps;
   font-family: sans-serif;
   color: white;
-  margin-right: 2.9em;
+  margin-right: 2.6em;
 }
 .style5 {
   font-size: 50px;
@@ -50,7 +51,7 @@ body {
   font-variant: small-caps;
   font-family: sans-serif;
   color: white;
-  margin-right: 5.8em;
+  margin-right: 4.9em;
 }
 .style6 {
   font-size: 50px;
@@ -58,7 +59,7 @@ body {
   font-variant: small-caps;
   font-family: sans-serif;
   color: white;
-  margin-right: 1.3em;
+  margin-right: 1.2em;
 }
 .style7 {
   font-size: 50px;
@@ -66,7 +67,7 @@ body {
   font-variant: small-caps;
   font-family: sans-serif;
   color: white;
-  margin-right: 2.9em;
+  margin-right: 2.6em;
 }
 .style8 {
   font-size: 50px;
@@ -74,7 +75,7 @@ body {
   font-variant: small-caps;
   font-family: sans-serif;
   color: white;
-  margin-right: 4.2em;
+  margin-right: 3.7em;
 }
 .style9 {
   font-size: 50px;
@@ -82,7 +83,7 @@ body {
   font-variant: small-caps;
   font-family: sans-serif;
   color: white;
-  margin-right: 6.7em;
+  margin-right: 5.7em;
 }
 .style10 {
   font-size: 50px;
@@ -96,7 +97,7 @@ body {
 section {
   margin: 0 auto;
   width: 90%;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 h3 {
@@ -112,8 +113,12 @@ h3 {
   height: 220px;
   width: 100%;
   opacity: 80%;
+  margin-bottom: 10px;
 }
 .outofservice {
   background-color: black;
   opacity: 75%;
+}
+ul {
+  padding-top: 32px;
 }
