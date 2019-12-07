@@ -1,16 +1,16 @@
 body {
-  background-image: url("map.png");
+  background-image: url("map.png") repeat 0 0;;
   background-color: #cccccc;
-  background-size: cover;
+  background-position: center;
   font-size: 14px;
 }
 #navcontainer {
   padding-top: 5px;
+  margin: 0;
 }
 #navlist li {
   display: inline;
   list-style-type: none;
-  padding-left: 0px;
   font-size: 50px;
   text-decoration: none;
   font-variant: small-caps;
