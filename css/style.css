@@ -1,17 +1,16 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background: url('../map.png') repeat 0 0;;
   background-color: #cccccc;
   background-position: center;
   font-size: 14px;
 }
-#navcontainer {
-  padding-top: 5px;
-  margin: 0;
-}
 #navlist li {
-  display: inline;
+  display: inline-block;
   list-style-type: none;
-  margin-left: 20px;
+  padding-left: 20px;
 }
 .style1 {
   font-size: 50px;
@@ -20,9 +19,8 @@ body {
   font-family: sans-serif;
   color: white;
   display: inline-block;
-  padding-right: 5em;
-  float: left;
-  width: 75%;
+  width: 25%;
+  text-align: right;
 }
 .style2 {
   font-size: 50px;
@@ -30,81 +28,32 @@ body {
   font-variant: small-caps;
   font-family: sans-serif;
   color: white;
-  padding-right: 5em;
+  width: 70%;
+}
+.bar {
+  background: rgba(0,0,0,0.7);
+  height: 132px;
+  padding: 0;
+  margin: 0;
+}
+.text {
+  color: #fff;
   display: inline-block;
-  float: left;
-  text-align: right;
-  width: 25%;
+  list-style-type: none;
 }
-.style3 {
-  font-size: 50px;
-  text-decoration: none;
-  font-variant: small-caps;
-  font-family: sans-serif;
-  color: white;
-  margin-right: 6em;
-}
-.style4 {
-  font-size: 50px;
-  text-decoration: none;
-  font-variant: small-caps;
-  font-family: sans-serif;
-  color: white;
-  margin-right: 2.6em;
-}
-.style5 {
-  font-size: 50px;
-  text-decoration: none;
-  font-variant: small-caps;
-  font-family: sans-serif;
-  color: white;
-  margin-right: 4.9em;
-}
-.style6 {
-  font-size: 50px;
-  text-decoration: none;
-  font-variant: small-caps;
-  font-family: sans-serif;
-  color: white;
-  margin-right: 1.2em;
-}
-.style7 {
-  font-size: 50px;
-  text-decoration: none;
-  font-variant: small-caps;
-  font-family: sans-serif;
-  color: white;
-  margin-right: 2.6em;
-}
-.style8 {
-  font-size: 50px;
-  text-decoration: none;
-  font-variant: small-caps;
-  font-family: sans-serif;
-  color: white;
-  margin-right: 3.7em;
-}
-.style9 {
-  font-size: 50px;
-  text-decoration: none;
-  font-variant: small-caps;
-  font-family: sans-serif;
-  color: white;
-  margin-right: 5.7em;
-}
-.style10 {
-  font-size: 50px;
-  text-decoration: none;
-  font-variant: small-caps;
-  font-family: sans-serif;
-  color: white;
-  margin-right: 1.2em;
-}
-
 section {
   margin: 0 auto;
   width: 90%;
-  padding-top: 100px;
+  padding-top: 10px;
+}
+p {
+  padding-top: 50px;
+  padding-left: 60px;
+  padding-right: 200px;
+  font-size: 48px;
+  font-family: sans-serif;
+  display: inline-block;
+  list-style-type: none;
 }
 
 h3 {
@@ -128,4 +77,14 @@ h3 {
 }
 ul {
   padding-top: 32px;
+}
+
+coverage {
+
+}
+wifi {
+
+}
+battery {
+
 }
