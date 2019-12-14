@@ -6,9 +6,18 @@ li {
 #statusbar li {
   text-align: center;
   padding: 0;
+  display: inline-block;
 }
 .statusbar {
   text-align: center;
+}
+.time {
+  color: white;
+  font-size: 44px;
+  font-family: sans-serif;
+  position:absolute;
+  left: 80px;
+  top: 55px;
 }
 * {
   box-sizing: border-box;
